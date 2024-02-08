@@ -36,10 +36,11 @@ nav{
     padding: 5px 10px;
     border: 2px solid white;
     border-radius: 50px;
-    font-size: 10px;
+    font-size: 75%;
     color: white;
     font-weight: 500;
     position: relative;
+    transition: all ease 0.4s;
 
 }
 
@@ -52,7 +53,7 @@ nav{
     left: 0;
     bottom: -100%;
     border-radius: 50%;
-    transition: all ease 0.3s;
+    transition: all ease 0.4s;
 }
 
 #nav-options h4:hover::after{
@@ -65,9 +66,11 @@ nav{
     color: white;
     z-index: 9;
     position: relative;
+    font-weight: bold;
 }
 
 #nav-options h4:hover a{
     color: rgb(0, 0, 0);
+    font-weight: bold;
 
 }
