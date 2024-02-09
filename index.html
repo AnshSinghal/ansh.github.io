@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ansh Singhal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -21,9 +30,36 @@
                 </div>
                 
             </nav>
+            <div id="center">
+                <div id="left">
+                    <h3>Hi, My name is</h3>
+                        <h2>Ansh Singhal</h2>
+                        <h3>and I am a</h3>
+                        <h1><span id="element"></span></h1>
+
+                </div>
+                <div id="right">
+                    <img src="ansh.png" alt="My_pic">
+                    
+                </div>
+            </div>
         </div>
     </div>
     <script src="script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Fullstack Developer",
+          "Graphic Designer",
+          "Public Speaker",
+          "Video Editor",
+          "Social Worker",
+          "Competitive Programmer",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
     
 </body>
 </html>
